@@ -1,15 +1,22 @@
-function add(num1, num2) {
+const add = function (num1, num2) {
   return num1 + num2;
-}
+};
 
-function subtract(num1, num2) {
+const subtract = function (num1, num2) {
   return num1 - num2;
-}
+};
 
-function divide(num1, num2) {
+const divide = function (num1, num2) {
   return num1 / num2;
-}
+};
 
-function multiply(num1, num2) {
+const multiply = function (num1, num2) {
   return num1 * num2;
+};
+
+let firstNumber = 0;
+let secondNumber = 0;
+
+function calculate(firstNumber, secondNumber, operator) {
+  console.log(firstNumber, secondNumber, operator);
 }
