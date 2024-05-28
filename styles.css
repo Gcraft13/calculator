@@ -66,3 +66,7 @@ button {
 #zero {
   grid-column: span 2;
 }
+
+.key--operator:focus {
+  border: 5px solid pink;
+}
